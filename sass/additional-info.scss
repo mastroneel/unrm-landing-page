@@ -2,18 +2,19 @@
 
 
 .box-container {
-  height: 600px;
+  height: 620px;
   background: $gray;
-  width: 95%;
+  width: 90%;
   color: $dark-blue;
   font-family: "Helvetica Neue", Helvetica, Arial;
-  margin: 70px auto 0 auto;
+  margin: 0 auto;
   font-size: 17px;
   line-height: 1.5;
   padding: 15px;
   border-radius: 4px;
   text-align: center;
-  box-shadow: 1px 1px 1px #828282;
+  border: 15px solid $light-blue;
+  // box-shadow: 1px 1px 1px #828282;
   .description {
     text-indent: 40px;
     margin-top: -10px;
@@ -38,9 +39,9 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .box-container {
-    width: 75%;
+    width: 70%;
     margin-top: 20px;
     height: auto;
   }
@@ -57,7 +58,14 @@
 
 @media (max-width: 482px) {
   .box-container {
-    width: 90%;
+    width: 85%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .box-container {
+    width: 83%;
     margin-top: 20px;
   }
 }
@@ -68,5 +76,12 @@
     strong {
       font-size: 15px;
     }
+  }
+}
+
+@media (max-width: 350px) {
+  .box-container {
+    width: 80%;
+    margin-top: 20px;
   }
 }

@@ -21,6 +21,15 @@ body {
   margin: 0;
 }
 
+.logo-row {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  img {
+    width: 45%;
+  }
+}
+
 .top-row {
   padding: 0 80px;
 }
@@ -34,5 +43,17 @@ body {
 @media (max-width: 1086px) {
   .top-row {
     padding: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .top-row {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .top-row-mobile {
+    display: none;
   }
 }

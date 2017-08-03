@@ -42,11 +42,16 @@
   }
 }
 
+//
+// Slider 2
+//
+
 #slider-2 {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
   border-radius: 4px;
+  min-height: 205px;
 }
 
 #slider-2 ul {
@@ -58,6 +63,40 @@
 }
 
 #slider-2 ul li {
+  position: relative;
+  display: block;
+  // float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  img {
+    width: 500px;
+    border-radius: 4px;
+  }
+}
+
+
+//
+// Slider 3
+//
+
+#slider-3 {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 4px;
+  min-height: 205px;
+}
+
+#slider-3 ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  // height: 200px;
+  list-style: none;
+}
+
+#slider-3 ul li {
   position: relative;
   display: block;
   // float: left;
@@ -150,5 +189,12 @@
     img {
       width: 400px;
     }
+  }
+}
+
+// Slider 3 media queries
+@media (max-width: 400px) {
+  #slider-3 {
+    min-height: 150px;
   }
 }
