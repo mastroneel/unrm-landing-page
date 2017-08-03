@@ -17,29 +17,12 @@
   position: relative;
   display: block;
   float: left;
-  margin: 0;
-  padding: 0;
-  width: 760px;
-  height: 400px;
+  // margin: 0;
+  // padding: 0;
+  // height: 400px;
+  width: 500px;
   text-align: center;
-  line-height: 1.5;
-  h5, h6, p {
-    font-family: NexaBold;
-  }
-  h5 {
-    color: $dark-blue;
-    font-size: 24px;
-  }
-  h6 {
-    color: $medium-blue;
-    font-size: 22px;
-    margin-top: -10px;
-  }
-  p {
-    color: $light-blue;
-    font-size: 20px;
-    margin-top: -50px;
-  }
+  // line-height: 1.5;
 }
 
 //
@@ -109,6 +92,34 @@
   }
 }
 
+// Slider-4
+#slider-4 {
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto 0px auto;
+  border-radius: 4px;
+}
+
+#slider-4 ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  // height: 200px;
+  list-style: none;
+}
+
+#slider-4 ul li {
+  position: relative;
+  display: block;
+  float: left;
+  // margin: 0;
+  // padding: 0;
+  // height: 400px;
+  width: 500px;
+  text-align: center;
+  // line-height: 1.5;
+}
+
 // a.control_prev, a.control_next {
 //   position: absolute;
 //   top: 40%;
@@ -152,18 +163,21 @@
   font-size: 18px;
 }
 
-@media (max-width: 745px) {
+@media (max-width: 1177px) {
   #slider ul li {
-    width: 500px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  #slider ul li {
+    width: 600px;
   }
 }
 
 @media (max-width: 530px) {
   #slider ul li {
     width: 400px;
-    h5 {
-      font-size: 18px;
-    }
   }
 }
 
@@ -196,5 +210,48 @@
 @media (max-width: 400px) {
   #slider-3 {
     min-height: 150px;
+  }
+}
+
+// Slider-4 media queries
+@media (max-width: 991px) {
+  #slider-4 ul li {
+    width: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  #slider-4 ul li {
+    width: 500px;
+  }
+}
+
+@media (max-width: 770px) {
+  #slider-4 ul li {
+    width: 450px;
+  }
+}
+
+@media (max-width: 650px) {
+  #slider-4 ul li {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  #slider-4 ul li {
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  #slider-4 ul li {
+    width: 310px;
+  }
+}
+
+@media (max-width: 399px) {
+  #slider-4 ul li {
+    width: 210px;
   }
 }

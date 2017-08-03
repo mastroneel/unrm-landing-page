@@ -2,6 +2,7 @@
   font-family: NexaBold;
   src: url("../NexaBold/nexabold.otf") format("opentype");
 }
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:700');
 
 @import 'flexboxgrid';
 @import 'nav';
@@ -10,6 +11,7 @@
 @import 'slider';
 @import 'footer';
 @import 'additional-info';
+@import 'testimonials';
 
 body {
   padding: 0;
@@ -33,6 +35,8 @@ body {
 .top-row {
   padding: 0 80px;
 }
+
+
 
 @media (max-width: 1266px) {
   .top-row {
