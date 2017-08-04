@@ -1,15 +1,12 @@
 @import 'variables';
 
 .form-container {
-  // width: 50%;
   margin: 0 auto;
-  background: $gray;
+  background: #0ea77b;
   padding: 0px 15px 15px 15px;
   border-radius: 4px;
   text-align: center;
-  // box-shadow: 1px 1px 1px #828282;
-  border: 15px solid $light-blue;
-  // height: 635px;
+  border: 15px solid #0ea77b;
   overflow: hidden;
   img {
     width: 100%;
@@ -17,9 +14,10 @@
   .form-header {
     h2 {
       text-align: left;
-      font-family: 'Zilla Slab', serif;
-      color: $medium-blue;
-      font-size: 30px;
+      font-family: NexaBold;
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 20px;
       margin-top: 20px;
       line-height: 1.2;
     }
@@ -36,7 +34,7 @@
     text-align: center;
     p {
       font-family: NexaBold;
-      color: $dark-blue;
+      color: #fff;
       margin-top: 15px;
       font-size: 15px;
       text-align: left;
@@ -60,8 +58,9 @@
     .submit-button {
       width: 50%;
       margin-top: 30px;
-      background: $dark-blue;
-      color: #fff;
+      background: #fff;
+      color: #0ea77b;
+      border: 1px solid #0ea77b;
       font-family: NexaBold;
       font-size: 18px;
       height: 50px;
@@ -98,11 +97,6 @@
         width: 40%;
       }
     }
-    // .form-header {
-    //   h2 {
-    //     font-size: 19px;
-    //   }
-    // }
   }
 }
 
