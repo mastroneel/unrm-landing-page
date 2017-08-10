@@ -772,11 +772,11 @@ nav {
     font-size: 10px; } }
 .form-container {
   margin: 0 auto;
-  background: #0ea77b;
+  background: #0a4a7b;
   padding: 0px 15px 15px 15px;
   border-radius: 4px;
   text-align: center;
-  border: 15px solid #0ea77b;
+  border: 15px solid #0a4a7b;
   overflow: hidden; }
   .form-container img {
     width: 100%; }
@@ -820,8 +820,8 @@ nav {
       width: 50%;
       margin-top: 30px;
       background: #fff;
-      color: #0ea77b;
-      border: 1px solid #0ea77b;
+      color: #0a4a7b;
+      border: 1px solid #0a4a7b;
       font-family: NexaBold;
       font-size: 18px;
       height: 50px; }
@@ -1118,11 +1118,12 @@ nav {
   .testimonials .col-xs-12, .testimonials .col-md-4 {
     padding: 40px; }
   .testimonials h5, .testimonials h6, .testimonials p {
-    font-family: NexaBold; }
+    font-family: "Helvetica Neue", Helvetica, Arial; }
   .testimonials h5 {
     color: #0a4a7b;
-    font-size: 24px;
-    margin-top: 30px; }
+    font-size: 19px;
+    margin-top: 30px;
+    font-weight: normal; }
   .testimonials h6 {
     color: #0673c0;
     font-size: 22px;
@@ -1178,7 +1179,7 @@ nav {
   .slider h2 {
     font-family: 'Zilla Slab', serif;
     font-size: 3em;
-    color: #5fdbc4;
+    color: #0a4a7b;
     text-align: center; }
 
 .slide1, .slide2, .slide3, .slide4, .slide5 {
@@ -1262,7 +1263,7 @@ body {
   margin-top: 70px;
   margin-bottom: 15px; }
   .logo-row img {
-    width: 45%; }
+    width: 35%; }
 
 .top-row {
   padding: 0 80px; }
