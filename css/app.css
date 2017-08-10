@@ -777,7 +777,8 @@ nav {
   border-radius: 4px;
   text-align: center;
   border: 15px solid #0a4a7b;
-  overflow: hidden; }
+  overflow: hidden;
+  max-width: 825px; }
   .form-container img {
     width: 100%; }
   .form-container .form-header h2 {
@@ -1060,6 +1061,7 @@ nav {
   height: 620px;
   background: #f5f5f5;
   width: 90%;
+  max-width: 825px;
   color: #0a4a7b;
   font-family: "Helvetica Neue", Helvetica, Arial;
   margin: 0 auto;
